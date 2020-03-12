@@ -1,0 +1,2672 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:600|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
+#menu-area .container button span{
+	color: white;
+}
+#menu-area{
+	transition: 0.5s ease-out;
+	height: 80px;
+}
+#menu-area img{
+	transition: 0.5s ease-in-out;
+}
+.navbar ul li{
+	margin-top: 20px;
+	transition: 0.5s ease-in-out;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand img{
+	height: 70px;
+	padding-top: 10px;
+}
+
+.navbar-light .navbar-nav .active1 {
+	text-decoration: none;
+    color: #fff;
+	margin-right: 20px;
+	display: inline-block;
+}
+.navbar-light .navbar-nav .active1::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: orange;
+    transition: width .3s;
+}
+
+.navbar-light .navbar-nav .active2{
+	text-decoration: none;
+    color: #fff;
+	margin-right: 20px;
+	display: inline-block;
+}
+.navbar-light .navbar-nav .active2::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: orange;
+    transition: width .3s;
+}
+
+.navbar-light .navbar-nav .active2:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+
+
+.cus-nav{
+	background: white !important;
+	height: 80px !important;
+}
+.cus-nav img{
+	height: 60px !important;
+}
+.txt-white a{
+	color: black !important;
+}
+.adjust-img img{
+	margin-top: -15px !important;
+}
+.adjust-ul ul li{
+	margin-top: -1px !important;
+}
+
+
+/*------SLIDER-------*/
+.carousel-item{
+	min-height: 300px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.carousel-caption{
+	margin-bottom: 300px;
+}
+.carousel-caption h5{
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	font-family: 'Questrial', sans-serif;
+	font-weight: bold;
+}
+.carousel-caption p{
+	width: 60%;
+	margin: auto;
+	font-size: 16px;
+	font-family: 'Questrial', sans-serif;
+	color: #fff;
+}
+.carousel-caption .change-color{
+	color: orange;
+}
+.d-block{
+	opacity: .3;
+}
+
+.bg-black{
+	background-color: black;
+}
+
+
+
+
+/*COURSE SECTION*/
+.course-section{
+	overflow: hidden;
+}
+.course-section-orange{
+	height: 450px;
+	background-color: #009688;
+}
+.course-section-orange .course-title{
+	text-align: center;
+}
+.course-section-orange  .course-title h1{
+	padding-top: 110px;
+	color: #E2E8F0;
+	font-family: 'Questrial', sans-serif;
+	font-weight: bold;
+}
+.course-section-orange  .course-title h1::after{
+	content: '';
+	background: #E2E8F0;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+.course-section-orange .services{
+	margin-top: 130px;
+}
+.course-section-orange  .icon{
+	font-size: 40px;
+	margin: 20px auto;
+	padding: 10px;
+	height: 80px;
+	width: 80px;
+	border: 1px solid black;
+	border-radius: 50%;
+}
+.course-section-orange p{
+	font-size: 14px;
+	margin-top: 20px;
+	color: black;
+	overflow: hidden;
+}
+.course-section-orange  .services .col-md-4 .box:hover{
+	margin-top: -10px;
+	box-shadow: 0px 6px 20px 4px rgba(0,0,0,0.75);
+	transition: 0.3s;
+	cursor: pointer;
+}
+.course-section-orange  .box{
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+}
+.course-section-orange  .box img{
+	height: 210px;
+	width: 100%;
+}
+.course-section-orange .box .subtitle{
+	text-align: left;
+	margin-top: 25px;
+	margin-left: 40px;
+}
+.course-section-orange  .box .subtitle p{
+	color: #718096;
+}
+.course-section-orange .box .title{
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 40px;
+}.course-section-orange .box .title a{
+	color: #DD6B20;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+.course-section-orange .box .title a{
+	color: #DD6B20;
+	font-size: 1.5em;
+	display: inline-block;
+}
+.course-section-orange .box .title a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: orange;
+    transition: width .3s;
+}
+.course-section-orange .box .title a:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+.course-section-orange .box .description{
+	text-align: left;
+	margin-top: 15px;
+	margin-left: 40px;
+}
+.course-section-orange .box .description h4{
+	color: #718096;
+	font-size: 1em;
+}
+.course-section-orange .box .more-description{
+	text-align: left;
+	margin-left: 40px;
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+}
+.course-section-orange .box .more-description .des1{
+	width: 50%;
+	padding-right: 20px;
+}
+.course-section-orange .box .more-description .des2{
+	width: 20%;
+}
+.course-section-orange .box .more-description p{
+	color: #718096;
+}
+
+/*EXTRA SPACE*/
+.extra-space{
+	height: 500px;
+}
+
+
+/*REGSTER-NOW*/
+/*-------- SERVICES------*/
+#services{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/register-now.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	height: auto;
+}
+.form-box{
+	width: 380px;
+	height: 480px;
+	position: relative;
+	margin-top: 50px;
+	background: #fff;
+	padding: 5px;
+	overflow: hidden;
+	border-radius: 30px;
+}
+.button-box{
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+.toggle-btn{
+	padding: 10px 25px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+}
+#btn{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 110px;
+	height: 100%;
+	background: linear-gradient(to right, #ff105f, #ffad06);
+	border-radius: 30px;
+	transition: .5s
+}
+.social-icons{
+	margin: 30px auto;
+	text-align: center;
+}
+.social-icons img{
+	width: 30px;
+	margin: 0 12px;
+	box-shadow: 0 0 20px 0 #7f7f7f3d;
+	cursor: pointer;
+	border-radius: 50%;
+}
+.input-group{
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+.input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+.submit-btn{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right, #ff105f, #ffad06);
+	border: 0;
+	outline: 0;
+	border-radius: 30px;
+	position: relative;
+	right: 20px;
+	top: 60px;
+}
+.check-box{
+	margin: 30px 10px 30px 0;
+}
+.input-group span{
+	color: #777;
+	font-size: 12px;
+	bottom: 28px;
+	left: 30px;
+	position: absolute;
+}
+#login{
+	left: 50px;
+}
+#register{
+	left: 450px;
+}
+
+#services .left-content .title h1{
+	font-size: 70px;
+}
+#services .left-content .title p{
+	font-size: 20px;
+}
+
+
+/*PROGRAMSSS*/
+.our-programs{
+	margin-top: 100px;
+}
+.our-programs img{
+	width: 611px;
+	height: 450px;
+}
+.our-programs .header{
+	text-align: center;
+}
+.our-programs .header .subtitle{
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.our-programs .content1, .our-programs .content2, .our-programs .content3{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	margin-top: 100px;
+}
+.our-programs .right-content{
+	margin-left: 100px;
+}
+.our-programs .content1 .title, .our-programs .content2 .title, .our-programs .content3 .title{
+	margin-top: 100px;
+}
+.our-programs h1, .content2 .title h1{
+	font-size: 40px;
+	font-family: 'Questrial', sans-serif;
+}
+
+
+#promo{
+	background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/slide1.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 100px;
+	font-family: sans-serif;
+	font-size: 38px;
+	height: auto;
+}
+#promo p{
+	margin-top: 100px;
+}
+#promo a{
+  position: relative;
+  display: inline-block;
+  padding: 5px 20px;
+  color: #2196f3;
+  text-decoration: none;
+  font-size: 20px;
+  overflow: hidden;
+  transition: 0.2s;
+  margin-bottom: 50px;
+}
+#promo a:hover{
+  color: black;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 20px #2196f3, 0 0 20px #2196f3;
+  transition-delay: 1s;
+}
+#promo a span{
+  position: absolute;
+  display: block;
+}
+#promo a span:nth-child(1)  {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#2196f3);
+}
+#promo a:hover span:nth-child(1) {
+  left: 100%;
+  transition: 1s;
+}
+#promo a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#2196f3);
+}
+#promo a:hover span:nth-child(3) {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+#promo a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#2196f3);
+}
+#promo a:hover span:nth-child(2) {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+#promo a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#2196f3);
+}
+#promo a:hover span:nth-child(4) {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+
+
+
+/*-----TEAM MEMERS 2222222*/
+.team-section{
+	background-color:#009688;
+	height: auto;
+	padding:70px 15px 30px;
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.team-section .section-title{
+	flex-basis: 100%;
+	max-width: 100%;
+	margin-bottom: 70px;
+}
+
+.team-section .section-title h1{
+	font-size: 40px;
+	text-align: center;
+	margin:0;
+	color: #ffffff;
+	font-weight: 700;
+	font-family: 'Questrial', sans-serif;
+}
+.team-section .team-items{
+	
+	flex-basis: 100%;
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.team-section .team-items .item{
+ flex-basis: calc(25% - 30px);
+ max-width: calc(25% - 30px);
+ transition: all .5s ease;
+ margin-bottom: 40px;
+}
+.team-section .team-items .item img{
+	display: block;
+	width: 100%;
+	border-radius: 8px;
+}
+
+.team-section .team-items .item .inner{
+	position: relative;
+	z-index: 11;
+	padding:0 15px;
+}
+.team-section .team-items .item .inner .info{
+	background-color:#009688;
+	text-align: center;
+	padding: 20px 15px;
+	border-radius:8px;
+	transition: all .5s ease;
+	margin-top: -40px;
+}
+.team-section .team-items .item:hover  .info{
+    transform: translateY(-20px);
+}
+.team-section .team-items .item:hover{
+ transform: translateY(-10px);	
+}
+.team-section .team-items .item .inner .info h5{
+	margin:0;
+	font-size: 22px;
+	font-weight: 600;
+	color:#ffffff;
+}
+.team-section .team-items .item .inner .info p{
+	font-size: 20px;
+	font-weight: 400;
+	color:#c5c5c5;
+	margin:10px 0 0;
+}
+
+.team-section .team-items .item .inner .info .social-links{
+	padding-top: 15px;
+}
+
+.team-section .team-items .item .inner .info .social-links a{
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+	background-color: #ffffff;
+	color:#009688;
+	border-radius: 50%;
+	margin:0 2px;
+	text-align: center;
+	line-height: 32px;
+	font-size:16px;
+	transition: all .5s ease;
+}
+
+.team-section .team-items .item .inner .info .social-links a:hover{
+	box-shadow: 0 0 10px #000;
+}
+
+
+
+/*----GET IN TORUCH----*/
+#contact{
+	background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/get-in-touch.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 100px;
+	height: auto;
+}
+#contact h1{
+	text-align: center;
+	color: #EDF2F7 !important;
+	margin-bottom: 50px;
+}
+.contact-form{
+	padding: 15px;
+}
+.form-control{
+	border-radius: 0 !important;
+	border: none;
+}
+.follow{
+	background: white;
+	padding: 10px;
+	margin: 15px;
+}
+.contact-info .fa{
+	margin: 10px;
+	color: #007bff;
+	font-weight: bold;
+}
+
+
+/* FOOTER */
+
+.footer-con{
+    width: 100%;
+    background-color: #E2E8F0;;
+}
+.footer-con .cisw{
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+}
+.footer-con .contact, .footer-con .information, .footer-con .services, .footer-con .newsletter {
+    width: 20%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.footer-con a{
+    text-decoration: none;
+    color: black;
+}
+.newsletter{
+    margin-left: -10px;
+    width: 30%;
+}
+.footer-con h4{
+    font-size: 1em;
+    margin-bottom: 20px;
+    color:#1F61AE;
+
+}
+.footer-con p{
+    font-size: .8em;
+}
+.footer-con ul {
+	margin-left: -40px;
+}
+.footer-con ul li a{
+    font-size: .8em;
+}
+
+.footer-con ul li a:hover{
+    color:#1F61AE;
+    text-decoration: underline;
+}
+.footer-con .contact ul li{
+    font-size: .8em;
+}
+
+.footer-con .contact ul li{
+    margin-top: 10px;
+}
+.footer-con .contact ul{
+    margin-top: 25px;
+}
+.footer-con ul{
+    list-style-type: none;
+}
+.footer-con ul li{
+    line-height: 1.6em;
+}
+.footer-con .arr{
+    font-weight: bold;
+}
+.footer-con .newsletter{
+	margin-left: -30px;
+}
+
+
+
+/*-------RESPONSIVE DESIGN----------*/
+@media (max-width: 2560px) and (min-width: 2000px){
+	/*----HEADER----*/
+	#menu-area{
+		height: 180px;
+	}
+	.navbar ul{
+		margin-top: 30px;
+		margin-right: -500px;
+	}
+	.navbar ul li{
+		font-size: 30px;	
+		margin-left: 10px;
+	}
+	.navbar-light .navbar-brand img{
+		margin-left: -500px;
+		height: 120px;
+		padding-top: 20px;
+	}
+	/*---HEADER ANIMATION-----*/
+	.cus-nav{
+		height: 180px !important;
+	}
+	.cus-nav img{
+		height: 110px !important;
+	}
+	.txt-white a{
+		color: black !important;
+	}
+	.adjust-img img{
+		margin-top: -15px !important;
+	}
+	.adjust-ul ul li{
+		margin-top: -20px !important;
+	}
+	
+
+	/*-----CAROUSEL------*/
+	.carousel-caption h5{
+		font-size: 80px;
+		margin-top: -400px;
+	}
+	.carousel-caption p{
+		width: 50%;
+		font-size: 28px;
+	}
+
+	/*----COURSES-----*/
+	.course-section-orange{
+		height: 850px;
+	}
+	.course-section-orange  .course-title h1{
+		font-size: 70px;
+	}
+	.course-section-orange  .course-title h1::after{
+		width: 270px;
+	}
+	.course-section-orange .services{
+		margin-top: 240px;
+		margin-left: -580px;
+		width: 200%;
+	}
+	.course-section-orange p{
+		font-size: 26px;
+	}
+	.course-section-orange .box img{
+		height: 510px;
+		width: 100%;
+	}
+	.course-section-orange .box .title a{
+		font-size: 54px;
+	}
+	.course-section-orange .box .description h4{
+		font-size: 28px;
+	}
+	.course-section-orange .box .more-description .des1{
+		width: 80%;
+		padding-right: 20px;
+		padding-bottom: 50px;
+	}
+	.course-section-orange .box .more-description .des2{
+		width: 40%;
+	}
+	.extra-space{
+		height: 800px;
+	}
+
+
+
+	/*----REGISTER NOWW------*/
+	/*bale 'di ko na 'to ireresponsive dito kase nakajavascript 'yung form box dito*/
+	.register-content .title{
+		margin-left: -500px;
+	}
+	.form-box{
+		margin-left: -500px;
+		width: 630px;
+		height: 790px;
+	}
+	.form-box input[type=text]{
+		font-size: 30px;
+	}
+	.button-box{
+		margin-top: 50px;
+		width: 380px;
+		font-size: 28px;
+	}
+	.toggle-btn{
+		padding: 20px 45px;
+	}
+	#btn{
+		width: 200px;
+		height: 100%;
+	}
+	.social-icons img{
+		width: 45px;
+	}
+	.input-group{
+		top: 280px;
+		width: 420px;
+	}
+	.submit-btn{
+		width: 85%;
+		padding: 10px 50px;
+		right: -40px;
+		top: 80px;
+		font-size: 30px;
+	}
+	.check-box{
+		margin: 40px 10px 30px 0;
+	}
+	.input-group span{
+		font-size: 25px;
+		bottom: 18px;
+		left: 30px;
+		position: absolute;
+	}
+	#login{
+		left: -550px;
+	}
+	#register{
+		left: 50px;
+	}
+
+	#services .left-content .title h1{
+		font-size: 120px;
+	}
+	#services .left-content .title p{
+		font-size: 40px;
+	}
+
+	
+
+	/*-----ABOUT US-------*/
+	.our-programs img{
+		width: 1011px;
+		height: 850px;
+	}
+	.our-programs .header .subtitle{
+		margin-right: 570px;	
+	}
+	.our-programs p{
+		width: 200%;
+		font-size: 30px;
+	}
+	.our-programs h1, .content2 .title h1{
+		font-size: 70px;
+	}
+	.our-programs .content1, .our-programs .content2, .our-programs .content3{
+		margin-left: -500px;
+	}
+	.our-programs .content1 .right-content{
+		margin-top: 100px;
+		margin-left: 400px;
+	}
+	.our-programs .content2 .left-content{
+		margin-top: 100px;
+		margin-right: 400px;
+		margin-left: 200px;
+	}
+	.our-programs .content3 .right-content{
+		margin-top: 100px;
+		margin-left: 400px;
+	}
+
+
+	/*----GET EXAMS-----*/
+	#promo p{
+	  	font-size: 65px;
+		margin-top: 200px;
+	}
+	#promo a{
+	  font-size: 36px;
+	  margin-bottom: 100px;
+	}
+
+
+	/*----OUR TEAM-----*/
+	.team-section .section-title h1{
+		font-size: 70px;
+		text-align: center;
+		margin:0;
+		color: #ffffff;
+		font-weight: 700;
+		font-family: 'Questrial', sans-serif;
+	}
+	.team-section .team-items .item{
+		margin-top: 100px;
+	}
+	.team-section .team-items .item img{
+		display: block;
+		width: 100%;
+		height: 550px;
+	}
+	.team-section .row{
+		margin-left: -570px;
+		width: 200%;
+	}
+	.team-section .team-items .item .inner .info h5{
+		font-size: 40px;
+	}
+	.team-section .team-items .item .inner .info p{
+		font-size: 30px;
+	}
+	.team-section .team-items .item .inner .info .social-links a{
+		height: 52px;
+		width: 52px;
+		font-size:26px;
+		line-height: 52px;
+	}
+
+
+
+
+	/*----GET IN TOUCH-------*/
+	#contact h1{
+		font-size: 70px;
+	}
+	.contact-form{
+		margin-left: -300px;
+	}
+	.contact-form input{
+		width: 100%;
+		height: 70px;
+	}
+	.contact-form textarea{
+		width: 100%;
+		height: 150px;
+	}
+	.contact-form input[type=text]{
+		font-size: 30px;
+	}
+	.contact-form textarea{
+		font-size: 30px;
+	}
+	.contact-form button{
+		font-size: 30px;
+	}
+	.contact-info .follow{
+		font-size: 30px;
+		padding: 20px;
+		width: 150%;
+	}
+
+
+
+
+	/*------FOOTER------*/
+	.footer-con .cisw{
+	    height: 400px;
+	}
+	.footer-con h4{
+		font-size: 32px;
+	}
+	.footer-con p{
+		font-size: 22px;
+	}
+	.footer-con ul {
+		margin-left: -40px;
+	}
+	.footer-con ul li a{
+		font-size: 22px;
+	}
+	.footer-con ul li a:hover{
+	    color:#1F61AE;
+	    text-decoration: underline;
+	}
+	.footer-con .contact ul li{
+		font-size: 22px;
+	}
+	.footer-con .information ul li{
+		font-size: 22px;
+	}
+	.footer-con .services ul li{
+		font-size: 22px;
+	}
+	.footer-con .contact ul li{
+	    line-height: 1.5em;
+	}
+	
+}
+
+@media (max-width: 1024px) {
+	#menu-area{
+		height: 80px;
+	}
+	.navbar ul{
+		margin-right: 80px;
+	}
+	.navbar ul li{
+		margin-top: 20px;
+		font-size: 13px;
+	}
+	.navbar-light .navbar-brand img{
+		height: 60px;
+		padding-top: 10px;
+		margin-left: 40px;
+	}
+	.cus-nav{
+		height: 100px !important;
+	}
+	.cus-nav img{
+		height: 50px !important;
+	}
+	.txt-white a{
+		color: black !important;
+	}
+	.adjust-img img{
+		margin-top: 30px !important;
+	}
+	.adjust-ul ul li{
+		margin-top: 40px !important;
+	}
+
+
+	/*-----SLIDER-----*/
+	.carousel-caption{
+		margin-bottom: 320px;
+	}
+	.carousel-caption p{
+		width: 70%;
+		font-size: 14px;
+		margin-bottom: -400px;
+	}
+	.carousel-caption h5{
+		font-size: 27px;
+		margin-top: 55px;
+	}
+
+
+
+	/*-----ABOUT US-------*/
+	.our-programs{
+		overflow: hidden;
+		width: 100%;
+		height: auto;
+		margin-bottom: -200px;
+	}
+	.our-programs img{
+		width: 300px;
+		height: 850px;
+	}
+	.our-programs .header .subtitle{
+		margin-top: 15px;
+		margin-left: 180px;
+		width: 70%;
+	}
+	.our-programs p{
+		width: 90%;
+		font-size: 13px;
+	}
+	.our-programs .title h1{
+		font-size: 30px;
+	}
+	.our-programs .content1 h1, .our-programs .content2 h1, .our-programs .content3 h1{
+		font-size: 20px;
+	}
+	.our-programs .content1{
+		margin-top: -10px;
+	}
+	.our-programs .content2, .our-programs .content3{
+		margin-top: -300px;
+		width: 100%;
+	}
+	.our-programs .content1 .left-content{
+		margin-left: 35px;
+		margin-top: -220px;
+	}
+	.our-programs .content2 .right-content{
+		margin-left: -10px;
+		margin-right: 25px;
+		margin-top: -220px;
+	}
+	.our-programs .content2 .left-content{
+		margin-left: 50px;
+	}
+	.our-programs .content3 .left-content{
+		margin-left: 35px;
+		margin-top: -220px;
+	}
+}
+
+@media (max-width: 768px) and (min-width: 767px){
+	/*---HEADER-----*/
+	#menu-area{
+		height: 50px;
+		background-color: white;
+	}
+	#menu-area button{
+		color: white;
+	}
+	#menu-area img{
+		margin-top: -5px;
+		height: 50px;
+	}
+	#menu-area .navbar-brand{
+		margin-top: -13px;
+		margin-left: 50px;
+	}
+	#menu-area ul{
+		float: right;
+		background-color: white;
+		text-align: center;
+		padding: 15px;
+		margin-right: 1px;
+	}
+	#menu-area ul li{
+		margin-top: 5px;
+		margin-left: 20px;
+		padding: 10px;
+		font-size: 16px;
+	}
+
+	#menu-area .container button{
+		margin-top: -10px;
+		background-color: white;
+		height: 30px;
+		margin-right: 50px;
+	}
+	#menu-area .container button span{
+		margin-top: -5px;
+		background-color: white;
+		height: 25px;
+	}
+	.navbar-light .navbar-nav .active1 {
+	    color: #000;
+	}
+	.navbar-light .navbar-nav .active2{
+	    color: #000;
+	}
+	.cus-nav{
+		height: 50px !important;
+	}
+	.cus-nav img{
+		height: 50px !important;
+	}
+	.adjust-img img{
+		margin-top: -5px !important;
+	}
+	.adjust-ul ul li{
+		margin-top: 5px !important;
+	}
+
+
+	
+
+	/*-----SLIDER-----*/
+	.carousel-caption{
+		margin-bottom: 250px;
+	}
+	.carousel-caption p{
+		width: 70%;
+		font-size: 12px;
+		margin-bottom: -400px;
+	}
+	.carousel-caption h5{
+		font-size: 25px;
+		margin-top: 55px;
+	}
+
+
+	/*-----COURSES------*/
+	.course-section-orange{
+		height: 300px;
+	}
+	.course-section-orange  .course-title h1{
+		padding-top: 50px;
+		font-size: 28px
+	}
+	.course-section-orange  .course-title h1::after{
+		width: 100px;
+		margin: 10px auto 5px;
+	}
+	.course-section-orange .services{
+		margin-top: 100px;
+	}
+	.course-section-orange p{
+		font-size: 12px;
+		margin-top: 20px;
+		color: black;
+		overflow: hidden;
+	}
+	.course-section-orange  .box{
+		box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	}
+	.course-section-orange  .box img{
+		height: 140px;
+		width: 100%;
+	}
+	.course-section-orange .box .subtitle{
+		margin-left: 20px;
+	}
+	.course-section-orange  .box .subtitle p{
+		color: #718096;
+		font-size: 12px;
+	}
+	.course-section-orange .box .title{
+		margin-left: 20px;
+	}
+	.course-section-orange .box .title a{
+		font-size: 18px;
+	}
+	.course-section-orange .box .description{
+		margin-left: 20px;
+	}
+	.course-section-orange .box .description h4{
+		font-size: 12px;
+	}
+	.course-section-orange .box .more-description{
+		margin-left: 20px;
+		margin-top: 10px;
+	}
+	.course-section-orange .box .more-description .des1{
+		width: 70%;
+		padding-right: 20px;
+	}
+	.course-section-orange .box .more-description .des2{
+		width: 20%;
+	}
+	.course-section-orange .box .more-description p{
+		color: #718096;
+	}
+	.extra-space{
+		height: 350px;
+	}
+
+
+	/*------REGISTER NOW-------*/
+	.register-content .title{
+		margin-left: 50px;
+	}
+	.form-box{
+		margin-top: 10px;
+		margin-left: 50px;
+		width: 230px;
+		height: 350px;
+	}
+	.form-box input[type=text]{
+		font-size: 12px;
+	}
+	.button-box{
+		margin-top: 20px;
+		width: 190px;
+		font-size: 12px;
+	}
+	.toggle-btn{
+		padding: 10px 25px;
+	}
+	#btn{
+		width: 90px;
+		height: 100%;
+	}
+	.social-icons img{
+		margin-top: -50px;
+		width: 16px;
+	}
+	.input-group{
+		top: 110px;
+		width: 150px;
+	}
+	.submit-btn{
+		width: 100%;
+		right: -5px;
+		top: 10px;
+		font-size: 10px;
+	}
+	.check-box{
+		margin: 25px 10px 30px 0;
+	}
+	.input-group span{
+		font-size: 12px;
+		bottom: 63px;
+		left: 30px;
+		width: 100%;
+		position: absolute;
+	}
+	#login{
+		left: 30px;
+	}
+	#register{
+		left: 280px;
+	}
+
+	#services .left-content .title h1{
+		font-size: 45px;
+	}
+	#services .left-content .title p{
+		font-size: 20px;
+	}
+
+
+
+	/*-----ABOUT US-------*/
+	.our-programs{
+		overflow: hidden;
+		width: 100%;
+		height: auto;
+		margin-bottom: -200px;
+	}
+	.our-programs img{
+		width: 300px;
+		height: 850px;
+	}
+	.our-programs .header .subtitle{
+		margin-top: 15px;
+		margin-left: 130px;
+		width: 70%;
+	}
+	.our-programs p{
+		width: 90%;
+		font-size: 13px;
+	}
+	.our-programs .title h1{
+		font-size: 30px;
+	}
+	.our-programs .content1 h1, .our-programs .content2 h1, .our-programs .content3 h1{
+		font-size: 20px;
+	}
+	.our-programs .content1{
+		margin-top: -10px;
+	}
+	.our-programs .content2, .our-programs .content3{
+		margin-top: -300px;
+		width: 100%;
+	}
+	.our-programs .content1 .left-content{
+		margin-left: 35px;
+		margin-top: -220px;
+	}
+	.our-programs .content2 .right-content{
+		margin-left: -10px;
+		margin-right: 25px;
+		margin-top: -220px;
+	}
+	.our-programs .content2 .left-content{
+		margin-left: 50px;
+	}
+	.our-programs .content3 .left-content{
+		margin-left: 35px;
+		margin-top: -220px;
+	}
+
+
+
+	/*-------OUR PROMO--------*/
+	#promo p{
+	  	font-size: 32px;
+		margin-top: 20px;
+	}
+	#promo a{
+	  font-size: 18px;
+	  margin-bottom: 10px;
+	}
+
+
+
+
+	/*-----TEAM MEMERS 2222222*/
+	.team-section .section-title h1{
+		font-size: 32px;
+		text-align: center;
+		margin:0;
+		color: #ffffff;
+		font-weight: 700;
+		font-family: 'Questrial', sans-serif;
+	}
+	.team-section .team-items .item .inner .info h5{
+		font-size: 18px;
+	}
+	.team-section .team-items .item .inner .info p{
+		font-size: 16px;
+	}
+	.team-section .team-items .item .inner .info .social-links a {
+		font-size: 14px;
+	}
+	/*responsive image*/
+	.team-section .team-items .item{
+      flex-basis: calc(40%);
+       max-width: calc(40%);
+
+   }
+
+	/*----GET IN TORUCH----*/
+	#contact h1{
+		font-size: 32px;
+		margin-bottom: 50px;
+	}
+	.contact-form{
+		margin-left: -70px;
+		padding: 15px;
+		width: 130%
+	}
+	.form-control{
+		font-size: 14px;
+	}
+	.follow{
+		width: 120%;
+		padding: 8px;
+		margin: 15px;
+		font-size: 14px;
+	}
+	.contact-info .fa{
+		margin: 10px;
+		color: #007bff;
+		font-weight: bold;
+	}
+	#contact button{
+		font-size: 14px;
+	}
+
+
+	/* FOOTER */
+	.footer-con .contact{
+		position: relative;
+		left: -50px;
+		font-size: 14px;
+	}
+	.footer-con .information{
+		position: relative;
+		left: -20px;
+		font-size: 14px;
+	}
+	.footer-con .services{
+		position: relative;
+		font-size: 14px;
+		left: -40px;
+	}
+	.footer-con .newsletter{
+		font-size: 14px;
+		position: relative;
+	}
+}
+
+@media (max-width: 766px) and (min-width: 426px) {
+	/*---HEADER-----*/
+	#menu-area{
+		height: 50px;
+		background-color: white;
+	}
+	#menu-area button{
+		color: white;
+	}
+	#menu-area img{
+		margin-top: -5px;
+		height: 50px;
+	}
+	#menu-area .navbar-brand{
+		margin-top: -13px;
+		margin-left: 50px;
+	}
+	#menu-area ul{
+		float: right;
+		background-color: white;
+		text-align: center;
+		padding: 15px;
+		margin-right: 1px;
+	}
+	#menu-area ul li{
+		margin-top: 5px;
+		margin-left: 20px;
+		padding: 10px;
+		font-size: 16px;
+	}
+
+	#menu-area .container button{
+		margin-top: -10px;
+		background-color: white;
+		height: 30px;
+		margin-right: 50px;
+	}
+	#menu-area .container button span{
+		margin-top: -5px;
+		background-color: white;
+		height: 25px;
+	}
+	.navbar-light .navbar-nav .active1 {
+	    color: #000;
+	}
+	.navbar-light .navbar-nav .active2{
+	    color: #000;
+	}
+	.cus-nav{
+		height: 50px !important;
+	}
+	.cus-nav img{
+		height: 50px !important;
+	}
+	.adjust-img img{
+		margin-top: -5px !important;
+	}
+	.adjust-ul ul li{
+		margin-top: 5px !important;
+	}
+
+
+	
+
+	/*-----SLIDER-----*/
+	.carousel-caption{
+		margin-bottom: 250px;
+	}
+	.carousel-caption p{
+		width: 70%;
+		font-size: 12px;
+		margin-bottom: -400px;
+	}
+	.carousel-caption h5{
+		font-size: 25px;
+		margin-top: 55px;
+	}
+
+
+	/*-----COURSES------*/
+	body div.course-section div.course-section-orange div div.row.services > div{
+		width: 45%;
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+	.course-section-orange{
+		height: 350px;
+	}
+	.course-section-orange  .course-title h1{
+		margin-top: -20px;
+		font-size: 28px
+	}
+	.course-section-orange  .course-title h1::after{
+		width: 80px;
+	}
+	.course-section-orange .services{
+		margin-top: 80px;
+	}
+	.course-section-orange p{
+		font-size: 12px;
+		margin-top: 20px;
+		color: black;
+		overflow: hidden;
+		margin-left: -20px;
+	}
+	body > div.course-section > div.course-section-orange > div > div.row.services > div > div > div.title > a{
+		font-size: 16px;
+		margin-left: -20px;
+	}
+	body > div.course-section > div.course-section-orange > div > div.row.services > div > div > div.description > h4{
+		font-size: 12px;
+		margin-left: -20px;
+		width: 95%;
+	}
+	.course-section-orange  .box{
+		box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	}
+	.course-section-orange  .box img{
+		height: 180px;
+		width: 100%;
+	}
+	.extra-space{
+		height: 850px;
+	}
+
+
+	/*------REGISTER NOW-------*/
+	.register-content .title{
+		margin-left: 50px;
+	}
+	.form-box{
+		margin-top: 10px;
+		margin-left: 50px;
+		width: 230px;
+		height: 350px;
+	}
+	.form-box input[type=text]{
+		font-size: 12px;
+	}
+	.button-box{
+		margin-top: 20px;
+		width: 190px;
+		font-size: 12px;
+	}
+	.toggle-btn{
+		padding: 10px 25px;
+	}
+	#btn{
+		width: 90px;
+		height: 100%;
+	}
+	.social-icons img{
+		margin-top: -50px;
+		width: 16px;
+	}
+	.input-group{
+		top: 110px;
+		width: 150px;
+	}
+	.submit-btn{
+		width: 100%;
+		right: -5px;
+		top: 10px;
+		font-size: 10px;
+	}
+	.check-box{
+		margin: 25px 10px 30px 0;
+	}
+	.input-group span{
+		font-size: 12px;
+		bottom: 63px;
+		left: 30px;
+		width: 100%;
+		position: absolute;
+	}
+	#login{
+		left: 30px;
+	}
+	#register{
+		left: 280px;
+	}
+
+	#services .left-content .title h1{
+		font-size: 45px;
+	}
+	#services .left-content .title p{
+		font-size: 20px;
+	}
+
+
+
+	/*-----ABOUT US-------*/
+	.our-programs{
+		overflow: hidden;
+		width: 100%;
+		height: auto;
+		margin-bottom: -200px;
+	}
+	.our-programs img{
+		width: 300px;
+		height: 850px;
+	}
+	.our-programs .header .subtitle{
+		margin-top: 15px;
+		margin-left: 130px;
+		width: 70%;
+	}
+	.our-programs p{
+		width: 90%;
+		font-size: 13px;
+	}
+	.our-programs .title h1{
+		font-size: 30px;
+	}
+	.our-programs .content1 h1, .our-programs .content2 h1, .our-programs .content3 h1{
+		font-size: 20px;
+	}
+	.our-programs .content1{
+		margin-top: -10px;
+	}
+	.our-programs .content2, .our-programs .content3{
+		margin-top: -300px;
+		width: 100%;
+	}
+	.our-programs .content1 .left-content{
+		margin-left: 35px;
+		margin-top: -220px;
+	}
+	.our-programs .content2 .right-content{
+		margin-left: -10px;
+		margin-right: 25px;
+		margin-top: -220px;
+	}
+	.our-programs .content2 .left-content{
+		margin-left: 50px;
+	}
+	.our-programs .content3 .left-content{
+		margin-left: 35px;
+		margin-top: -220px;
+	}
+
+
+
+	/*-------OUR PROMO--------*/
+	#promo p{
+	  	font-size: 32px;
+		margin-top: 20px;
+	}
+	#promo a{
+	  font-size: 16px;
+	  margin-bottom: 10px;
+	}
+
+
+
+
+	/*-----TEAM MEMERS----------*/
+	.team-section .section-title h1{
+		font-size: 32px;
+		text-align: center;
+		margin:0;
+		color: #ffffff;
+		font-weight: 700;
+		font-family: 'Questrial', sans-serif;
+	}
+	.team-section .team-items .item .inner .info h5{
+		font-size: 18px;
+	}
+	.team-section .team-items .item .inner .info p{
+		font-size: 16px;
+	}
+	.team-section .team-items .item .inner .info .social-links a {
+		font-size: 14px;
+	}
+	/*responsive image*/
+	.team-section .team-items .item{
+      flex-basis: calc(40%);
+       max-width: calc(40%);
+
+   }
+
+	/*----GET IN TORUCH----*/
+	#contact h1{
+		font-size: 32px;
+		margin-bottom: 50px;
+	}
+	.contact-form{
+		margin-left: -70px;
+		padding: 15px;
+		width: 130%;
+	}
+	.form-control{
+		font-size: 14px;
+	}
+	.follow{
+		width: 130%;
+		padding: 8px;
+		margin-left: -65px;
+		font-size: 14px;
+	}
+	.contact-info .fa{
+		margin: 10px;
+		color: #007bff;
+		font-weight: bold;
+	}
+	#contact button{
+		font-size: 14px;
+	}
+
+
+	/* FOOTER */
+	.footer-con .contact{
+		position: relative;
+		left: -50px;
+		font-size: 14px;
+	}
+	.footer-con .information{
+		position: relative;
+		left: -20px;
+		font-size: 14px;
+	}
+	.footer-con .services{
+		position: relative;
+		font-size: 14px;
+		left: -40px;
+	}
+	.footer-con .newsletter{
+		font-size: 14px;
+		position: relative;
+	}
+}
+
+@media (max-width: 425px) {
+	/*---HEADER-----*/
+
+	.navbar-light .navbar-nav .active1 {
+	    color: #000;
+	}
+	.navbar-light .navbar-nav .active2{
+	    color: #000;
+	}
+	#menu-area{
+		height: 40px;
+		background-color: white;
+	}
+	#menu-area button{
+		color: white;
+	}
+	#menu-area img{
+		margin-top: -5px;
+		height: 40px;
+	}
+	#menu-area .navbar-brand{
+		margin-top: -13px;
+		margin-left: 50px;
+	}
+	#menu-area ul{
+		float: right;
+		background-color: white;
+		text-align: center;
+		padding: 5px;
+		margin-right: 1px;
+	}
+	#menu-area ul li{
+		margin-top: 5px;
+		margin-left: 20px;
+		padding: 5px;
+		font-size: 12px;
+	}
+
+	#menu-area .container button{
+		margin-top: -10px;
+		background-color: white;
+		height: 28px;
+		margin-right: 50px;
+	}
+	#menu-area .container button span{
+		margin-top: -8px;
+		background-color: white;
+		height: 20px;
+	}
+	.cus-nav{
+		height: 40px !important;
+	}
+	.cus-nav img{
+		height: 40px !important;
+	}
+	.adjust-img img{
+		margin-top: -5px !important;
+	}
+	.adjust-ul ul li{
+		margin-top: 5px !important;
+	}
+
+
+
+	/*-----SLIDER-----*/
+	.carousel-inner{
+	}
+	.carousel-caption{
+		margin-bottom: 150px;
+	}
+	.carousel-caption p{
+		width: 80%;
+		font-size: 10px;
+		margin-bottom: -400px;
+	}
+	.carousel-caption h5{
+		font-size: 16px;
+		margin-top: 55px;
+	}
+	.carousel-item{
+		min-height: 100px;
+	}
+	#carouselExampleIndicators a span{
+		height: 10px;
+	}
+	#carouselExampleIndicators ol li{
+		height: 2px;
+		width: 15px;	
+	}
+
+
+	/*-----COURSES------*/
+	body div.course-section div.course-section-orange div div.row.services > div{
+		width: 75%;
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+	.course-section-orange{
+		height: 300px;
+	}
+	.course-section-orange  .course-title h1{
+		margin-top: -60px;
+		font-size: 22px
+	}
+	.course-section-orange  .course-title h1::after{
+		width: 80px;
+		margin: 5px auto 5px;
+	}
+	.course-section-orange .services{
+		margin-top: 80px;
+	}
+	.course-section-orange p{
+		font-size: 10px;
+		margin-top: 20px;
+		color: black;
+		overflow: hidden;
+		margin-left: -20px;
+	}
+	body > div.course-section > div.course-section-orange > div > div.row.services > div > div > div.title > a{
+		font-size: 14px;
+		margin-left: -20px;
+	}
+	body > div.course-section > div.course-section-orange > div > div.row.services > div > div > div.description > h4{
+		font-size: 10px;
+		margin-left: -20px;
+		width: 95%;
+	}
+	.course-section-orange  .box{
+		box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	}
+	.course-section-orange  .box img{
+		height: 150px;
+		width: 100%;
+	}
+	.extra-space{
+		height: 1150px;
+	}
+
+
+
+	/*------REGISTER NOW-------*/
+	.register-content .title{
+		margin-left: 20px;
+	}
+	.form-box{
+		margin-top: 10px;
+		margin-left: 20px;
+		width: 150px;
+		height: 250px;
+	}
+	.form-box input[type=text]{
+		font-size: 8px;
+	}
+	.button-box{
+		margin-top: 10px;
+		width: 90px;
+		height: 20px;
+		font-size: 9px;
+	}
+	#services > div > div > div > div.form-box > div.button-box > button{
+		width: 45%;
+	}
+	.toggle-btn{
+		padding: 3px 0px;
+	}
+	#btn{
+		width: 40px;
+		height: 100%;
+	}
+	.social-icons img{
+		margin-top: -60px;
+		width: 12px;
+		margin-left: -10px;
+	}
+	.social-icons{
+		margin-left: 20px;
+	}
+	.input-group{
+		top: 70px;
+		width: 90px;
+	}
+	.submit-btn{
+		right: 3px;
+		top: -10px;
+		width: 90px;
+		height: 20px;
+		font-size: 10px;	
+		padding: 3px 0px;
+	}
+	.check-box{
+		margin: 15px 10px 30px 0;
+		height: 9px;
+	}
+	.input-group span{
+		font-size: 9px;
+		bottom: 48px;
+		left: 15px;
+		width: 100%;
+		position: absolute;
+	}
+	#login{
+		left: 30px;
+	}
+	#register{
+		left: 280px;
+	}
+
+	#services .left-content .title h1{
+		font-size: 25px;
+	}
+	#services .left-content .title p{
+		font-size: 12px;
+	}
+
+
+
+	
+	/*-----ABOUT US-------*/
+	.our-programs{
+		overflow: visible;
+		width: 100%;
+		height: auto;
+		margin-bottom: -270px;
+	}
+	.our-programs .title{
+		margin-top: -50px;
+	}
+	.our-programs img{
+		width: 150px;
+		height: 850px;
+	}
+	.our-programs .header .subtitle{
+		margin: 0 auto;
+		margin-top: 15px;
+		width: 70%;
+	}
+	.our-programs p{
+		width: 100%;
+		font-size: 10px;
+	}
+	.our-programs .title h1{
+		font-size: 30px;
+	}
+	.our-programs .content1, .our-programs .content2, .our-programs .content3{
+		overflow: hidden;
+	}
+	.our-programs .content1 h1, .our-programs .content2 h1, .our-programs .content3 h1{
+		font-size: 18px;
+	}
+	.our-programs .content1 p, .our-programs .content2 p, .our-programs .content3 p{
+		font-size: 8px;
+	}
+	.our-programs .content1{
+		margin-top: -40px;
+	}
+	.our-programs .content2, .our-programs .content3{
+		margin-top: -350px;
+		width: 100%;
+	}
+	.our-programs .content1 .left-content{
+		margin-left: 35px;
+		margin-top: -250px;
+		margin-right: -60px;
+	}
+	.our-programs .content2 .right-content{
+		margin-top: -250px;
+		margin-left: -10px;
+	}
+	.our-programs .content2 .left-content{
+		margin-left: 35px;
+		margin-right: 50px;
+		width: 30%;
+	}
+	.our-programs .content3 .left-content{
+		margin-left: 35px;
+		margin-top: -250px;
+		margin-right: -60px;
+	}
+
+
+	/*-----PROMO-----*/
+	#promo{
+		height: auto;
+	}
+	#promo p{
+	  	font-size: 18px;
+		margin-top: 20px;
+	}
+	#promo a{
+	  font-size: 12px;
+	  margin-bottom: 10px;
+	}
+
+
+	/*-----TEAM MEMERS 2222222*/
+	.team-section .section-title h1{
+		font-size: 32px;
+		text-align: center;
+		margin:0;
+		color: #ffffff;
+		font-weight: 700;
+		font-family: 'Questrial', sans-serif;
+	}
+	.team-section .team-items .item .inner .info h5{
+		font-size: 16px;
+	}
+	.team-section .team-items .item .inner .info p{
+		font-size: 14px;
+	}
+	.team-section .team-items .item .inner .info .social-links a {
+	    height: 16px;
+	    width: 16px;
+	    margin: 0 2px;
+	    line-height: 16px;
+	    font-size: 10px;
+	}
+	/*responsive image*/
+	.team-section .team-items .item{
+      flex-basis: calc(60%);
+       max-width: calc(60%);
+
+   }
+
+	/*----GET IN TORUCH----*/
+	#contact h1{
+		font-size: 26px;
+		margin-bottom: 50px;
+	}
+	.contact-form{
+		margin: 0 auto;
+		margin-left: -50px;
+		padding: 15px;
+		width: 150%
+	}
+	.form-control{
+		font-size: 14px;
+	}
+	.follow{
+		width: 150%;
+		padding: 8px;
+		margin-left: -50px;
+		font-size: 14px;
+	}
+	.contact-info .fa{
+		margin: 10px;
+		color: #007bff;
+		font-weight: bold;
+	}
+	#contact button{
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+
+
+	/* FOOTER */
+	.footer-con{
+		overflow: hidden;
+		width: 100%;
+		height: 85vh;
+		margin: 0 auto;
+	}
+	.footer-con .contact{
+		position: relative;
+		left: -50px;
+		font-size: 14px;
+		width: 50%;
+	}
+	.footer-con .information{
+		position: relative;
+		left: -40px;
+		font-size: 14px;
+		width: 50%;
+	}
+	.footer-con .services{
+		position: relative;
+		font-size: 14px;
+		top: 200px;
+		left: -380px;
+		width: 50%;
+	}
+	.footer-con .newsletter{
+		position: relative;
+		font-size: 14px;
+		top: 200px;
+		left: -270px;
+		width: 200%;
+	}
+	.footer-con .newsletter p{
+		width: 200%;
+	}
+
+}
+
+@media (max-width: 375px) {
+	/*---HEADER-----*/
+	#menu-area{
+		height: 40px;
+		background-color: white;
+	}
+	#menu-area ul{
+		float: right;
+		background-color: white;
+		text-align: center;
+		padding: 5px;
+		margin-right: 1px;
+	}
+	#menu-area ul li{
+		margin-top: 5px;
+		margin-left: 20px;
+		padding: 2px;
+		font-size: 12px;
+	}
+	#menu-area button{
+		color: white;
+	}
+	#menu-area img{
+		margin-top: -7px;
+		height: 40px;
+	}
+	#menu-area .navbar-brand{
+		margin-top: -13px;
+		margin-left: 10px;
+	}
+
+	.navbar-light .navbar-nav .active1 {
+	    color: #000;
+	}
+	.navbar-light .navbar-nav .active2{
+	    color: #000;
+	}
+	#menu-area .container button{
+		margin-top: -10px;
+		background-color: white;
+		height: 20px;
+		margin-right: 30px;
+	}
+	#menu-area .container button span{
+		margin-top: -15px;
+		background-color: white;
+		height: 15px;
+	}
+	.cus-nav{
+		height: 40px !important;
+	}
+	.cus-nav img{
+		height: 40px !important;
+	}
+	.adjust-img img{
+		margin-top: -7px !important;
+	}
+	
+
+
+	/*-----SLIDER-----*/
+	.carousel-caption{
+		margin-bottom: 135px;
+	}
+	.carousel-caption p{
+		width: 80%;
+		font-size: 8px;
+		margin-bottom: -400px;
+	}
+	.carousel-caption h5{
+		font-size: 12px;
+		margin-top: 55px;
+	}
+	.carousel-item{
+		min-height: 100px;
+	}
+	#carouselExampleIndicators a span{
+		height: 10px;
+	}
+	#carouselExampleIndicators ol li{
+		height: 2px;
+		width: 15px;	
+	}
+
+
+	/*-----COURSES------*/
+	body div.course-section div.course-section-orange div div.row.services > div{
+		width: 75%;
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+	.course-section-orange{
+		height: 300px;
+	}
+	.course-section-orange  .course-title h1{
+		margin-top: -60px;
+		font-size: 22px
+	}
+	.course-section-orange  .course-title h1::after{
+		width: 80px;
+	}
+	.course-section-orange .services{
+		margin-top: 20px;
+	}
+	.course-section-orange p{
+		font-size: 10px;
+		margin-top: 20px;
+		color: black;
+		overflow: hidden;
+		margin-left: -20px;
+	}
+	body > div.course-section > div.course-section-orange > div > div.row.services > div > div > div.title > a{
+		font-size: 14px;
+		margin-left: -20px;
+	}
+	body > div.course-section > div.course-section-orange > div > div.row.services > div > div > div.description > h4{
+		font-size: 10px;
+		margin-left: -20px;
+		width: 95%;
+	}
+	.course-section-orange  .box{
+		box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	}
+	.course-section-orange  .box img{
+		height: 150px;
+		width: 100%;
+	}
+	.extra-space{
+		height: 1150px;
+	}
+
+
+
+	/*------REGISTER NOW-------*/
+	.register-content .title{
+		margin-left: 20px;
+	}
+	.form-box{
+		margin-top: 10px;
+		margin-left: 20px;
+		width: 150px;
+		height: 250px;
+	}
+	.form-box input[type=text]{
+		font-size: 8px;
+	}
+	.button-box{
+		margin-top: 10px;
+		width: 90px;
+		height: 20px;
+		font-size: 9px;
+	}
+	#services > div > div > div > div.form-box > div.button-box > button{
+		width: 45%;
+	}
+	.toggle-btn{
+		padding: 3px 0px;
+	}
+	#btn{
+		width: 40px;
+		height: 100%;
+	}
+	.social-icons img{
+		margin-top: -60px;
+		width: 12px;
+		margin-left: -10px;
+	}
+	.social-icons{
+		margin-left: 20px;
+	}
+	.input-group{
+		top: 70px;
+		width: 90px;
+	}
+	.submit-btn{
+		right: 3px;
+		top: -10px;
+		width: 90px;
+		height: 20px;
+		font-size: 10px;	
+		padding: 3px 0px;
+	}
+	.check-box{
+		margin: 15px 10px 30px 0;
+		height: 9px;
+	}
+	.input-group span{
+		font-size: 9px;
+		bottom: 48px;
+		left: 15px;
+		width: 100%;
+		position: absolute;
+	}
+	#login{
+		left: 30px;
+	}
+	#register{
+		left: 280px;
+	}
+
+	#services .left-content .title h1{
+		font-size: 25px;
+	}
+	#services .left-content .title p{
+		font-size: 12px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+	/*-----ABOUT US-------*/
+	.our-programs{
+		overflow: visible;
+		width: 100%;
+		height: auto;
+		margin-bottom: -270px;
+	}
+	.our-programs .title{
+		margin-top: -50px;
+	}
+	.our-programs img{
+		width: 150px;
+		height: 850px;
+	}
+	.our-programs .header .subtitle{
+		margin: 0 auto;
+		margin-top: 15px;
+		width: 70%;
+	}
+	.our-programs p{
+		width: 100%;
+		font-size: 10px;
+	}
+	.our-programs .title h1{
+		font-size: 30px;
+	}
+	.our-programs .content1, .our-programs .content2, .our-programs .content3{
+		overflow: hidden;
+	}
+	.our-programs .content1 h1, .our-programs .content2 h1, .our-programs .content3 h1{
+		font-size: 18px;
+	}
+	.our-programs .content1 p, .our-programs .content2 p, .our-programs .content3 p{
+		font-size: 8px;
+	}
+	.our-programs .content1{
+		margin-top: -40px;
+	}
+	.our-programs .content2, .our-programs .content3{
+		margin-top: -350px;
+		width: 100%;
+	}
+	.our-programs .content1 .left-content{
+		margin-left: 35px;
+		margin-top: -250px;
+		margin-right: -60px;
+	}
+	.our-programs .content2 .right-content{
+		margin-top: -250px;
+		margin-left: -10px;
+	}
+	.our-programs .content2 .left-content{
+		margin-left: 35px;
+		margin-right: 50px;
+		width: 30%;
+	}
+	.our-programs .content3 .left-content{
+		margin-left: 35px;
+		margin-top: -250px;
+		margin-right: -60px;
+	}
+
+
+	/*-----PROMO-----*/
+	#promo{
+		height: auto;
+	}
+	#promo p{
+	  	font-size: 18px;
+		margin-top: 20px;
+	}
+	#promo a{
+	  font-size: 12px;
+	  margin-bottom: 10px;
+	}
+
+
+	/*-----TEAM MEMERS 2222222*/
+	.team-section .section-title h1{
+		font-size: 32px;
+		text-align: center;
+		margin:0;
+		color: #ffffff;
+		font-weight: 700;
+		font-family: 'Questrial', sans-serif;
+	}
+	.team-section .team-items .item .inner .info h5{
+		font-size: 12px;
+	}
+	.team-section .team-items .item .inner .info p{
+		font-size: 10px;
+	}
+	.team-section .team-items .item .inner .info .social-links a {
+	    height: 20px;
+	    width: 20px;
+	    margin: 0 2px;
+	    line-height: 20px;
+	    font-size: 10px;
+	}
+	/*responsive image*/
+	.team-section .team-items .item{
+      flex-basis: calc(60%);
+       max-width: calc(60%);
+
+   }
+
+	/*----GET IN TORUCH----*/
+	#contact h1{
+		font-size: 24px;
+		margin-bottom: 50px;
+	}
+	.contact-form{
+		margin: 0 auto;
+		margin-left: -65px;
+		padding: 15px;
+		width: 200%
+	}
+	.form-control{
+		font-size: 12px;
+	}
+	.follow{
+		width: 200%;
+		padding: 8px;
+		margin-left: -65px;
+		font-size: 14px;
+	}
+	.contact-info .fa{
+		margin: 10px;
+		color: #007bff;
+		font-weight: bold;
+	}
+	#contact button{
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+
+
+	/* FOOTER */
+	.footer-con{
+		overflow: hidden;
+		width: 100%;
+		height: 85vh;
+		margin: 0 auto;
+	}
+	.footer-con .contact{
+		position: relative;
+		left: -50px;
+		font-size: 14px;
+		width: 50%;
+	}
+	.footer-con .information{
+		position: relative;
+		left: -40px;
+		font-size: 14px;
+		width: 50%;
+	}
+	.footer-con .services{
+		position: relative;
+		font-size: 14px;
+		top: 200px;
+		left: -380px;
+		width: 50%;
+	}
+	.footer-con .newsletter{
+		position: relative;
+		font-size: 14px;
+		top: 200px;
+		left: -270px;
+		width: 200%;
+	}
+	.footer-con .newsletter p{
+		width: 200%;
+	}
+
+
+@media (max-width: 320px) {
+	/*---HEADER-----*/
+	#menu-area ul{
+		margin-right: 0px;
+	}
+	#menu-area .navbar-brand{
+		margin-top: -13px;
+		margin-left: -30px;
+	}
+
+	/*-----SLIDER-----*/
+	.carousel-caption{
+		margin-bottom: 115px;
+	}
+
+	/*-----COURSES------*/
+	body div.course-section div.course-section-orange div div.row.services > div{
+		width: 75%;
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+
+
+	
+
+
+	/*-----ABOUT US-------*/
+	.our-programs .content2, .our-programs .content3{
+		margin-top: -350px;
+		width: 100%;
+	}
+	.our-programs .content1 .left-content{
+		margin-left: 15px;
+		margin-right: -80px;
+	}
+	.our-programs .content2 .right-content{
+		margin-left: -10px;
+	}
+	.our-programs .content2 .left-content{
+		margin-left: 15px;
+		margin-right: 50px;
+	}
+	.our-programs .content3 .left-content{
+		margin-left: 15px;
+		margin-right: -80px;
+	}
+
+
+	/*-----PROMO-----*/
+	#promo p{
+	  	font-size: 16px;
+		margin-top: 20px;
+	}
+	#promo a{
+	  font-size: 11px;
+	  margin-bottom: 10px;
+	}
+
+
+	
+
+	/*----GET IN TORUCH----*/
+	.contact-form{
+		margin: 0 auto;
+		margin-left: -65px;
+		padding: 15px;
+		width: 250%;
+	}
+	.form-control{
+		font-size: 12px;
+	}
+	.follow{
+		width: 250%;
+		padding: 8px;
+		margin-left: -65px;
+		font-size: 12px;
+	}
+
+
+	/* FOOTER */
+	.footer-con{
+		overflow: hidden;
+		width: 100%;
+		height: 85vh;
+		margin: 0 auto;
+	}
+	.footer-con .contact{
+		position: relative;
+		left: -50px;
+		font-size: 12px;
+		width: 50%;
+	}
+	.footer-con .information{
+		position: relative;
+		left: -50px;
+		font-size: 12px;
+		width: 50%;
+	}
+	.footer-con .services{
+		position: relative;
+		font-size: 12px;
+		top: 200px;
+		left: -350px;
+		width: 50%;
+	}
+	.footer-con .newsletter{
+		position: relative;
+		font-size: 12px;
+		top: 200px;
+		left: -270px;
+		width: 200%;
+	}
+	.footer-con .newsletter p{
+		width: 200%;
+	}
+}
+
+
