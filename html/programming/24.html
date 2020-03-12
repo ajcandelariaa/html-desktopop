@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Programming Tutorial - Relational Operators</title>
+	
+	<link rel="shortcut icon" href="../../img/webicon2.png" type="image/x-icon" />
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../../css/programming/1.css">
+</head>
+<body>
+	<nav id="menu-area" class="navbar navbar-expand-lg navbar-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="../../index.html">
+				<img src="../../img/desktopop2.png" id="image-resize" alt="Dekstopop Logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    	<ul class="navbar-nav ml-auto">
+		      		<li class="nav-item ">
+		       			<a class="active2" href="../../index.html">Home</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="active2" href="../hardware/1.html">Hardware</a>
+		      		</li>
+		      		<li class="nav-item  active">
+		        		<a class="active1" href="1.html">Programming</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="active2" href="../networking/1.html">Networking</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="active2"href="../exercises/exercise.html">Exercises</a>
+		      		</li>
+		    	</ul>
+		  	</div>
+		</div>
+	</nav>
+	
+	<section>
+		<div class="hardware-content">
+			<div class="side-bar" id="mySidebar">
+				 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+				<div class="title">
+					<a href="1.html">C Programming</a>
+				</div>
+				<div class="module-main-content">
+					<div class="module-1">
+						<div class="module-title">
+							<a href="2.html">Basics</a>
+						</div>
+						<div class="module-content">
+							<ul>
+								<li><a href="3.html">Constants & Variables</a></li>
+								<li><a href="4.html">Keywords</a></li>
+								<li><a href="5.html">Data Types</a></li>
+								<li><a href="6.html">Printf</a></li>
+								<li><a href="7.html">Scanf</a></li>
+								<li><a href="8.html">Comments</a></li>
+								<li><a href="9.html">First Simple Program</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="module-2">
+						<div class="module-title">
+							<a href="10.html">Control Structures</a>
+						</div>
+						<div class="module-content">
+							<ul>
+								<li><a href="11.html">If Statement</a></li>
+								<li><a href="12.html">If Else Statement</a></li>
+								<li><a href="13.html">Nested If Statement</a></li>
+								<li><a href="14.html">Else If Statement</a></li>
+								<li><a href="15.html">For Loop</a></li>
+								<li><a href="16.html">While Loop</a></li>
+								<li><a href="17.html">Do While Loop</a></li>
+								<li><a href="18.html">Switch Case</a></li>
+								<li><a href="19.html">Break Statement</a></li>
+								<li><a href="20.html">Continue Statement</a></li>
+								<li><a href="21.html">GoTo Statement</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="module-3">
+						<div class="module-title">
+							<a href="22.html">Operators</a>
+						</div>
+						<div class="module-content">
+							<ul>
+								<li><a href="23.html">Arithmetic Operators</a></li>
+								<li><a href="24.html" class="a-active">Relational Operators</a></li>
+								<li><a href="25.html">Assignment Operators</a></li>
+								<li><a href="26.html">Logical Operators</a></li>
+								<li><a href="27.html">Bitwise Operators</a></li>
+								<li><a href="28.html">Shift Operators</a></li>
+								<li><a href="29.html">Increment & Decrement Operators</a></li>
+								<li><a href="30">Ternary Operators</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="module-4">
+						<div class="module-title">
+							<a href="31.html">Functions</a>
+						</div>
+						<div class="module-content">
+							<ul>
+								<li><a href="32.html">Function Introduction</a></li>
+								<li><a href="33.html">Passing & Returning Arguments</a></li>
+								<li><a href="34.html">Call by Value</a></li>
+								<li><a href="35.html">Call by Reference</a></li>
+								<li><a href="36.html">Recursive Function</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="content-text" id="main">
+				<div class="container">
+					<button class="openbtn" id="openbtn" onclick="openNav()">☰</button> 
+					<div class="title">
+						<h1>Relational Operators</h1>
+					</div>
+					<div class="buttons-up">
+						<div class="left-button">
+							<a href="23.html"><< Prev</a>
+						</div>
+						<div class="right-button">
+							<a href="25.html">Next >></a>
+						</div>
+					</div>
+					<div class="line">
+						<hr>
+					</div>
+
+					<h3>Description</h3>
+					<p>The relational operators allows us to compare the values of one to another, where both the values should be of same type i.e. arithmetic or string. Following are the relational operators used to check the values, whether they are equal, not equal, smaller, greater etc.</p>
+
+					<table>
+						<tr>
+							<td>
+								==
+								&emsp;
+							</td>
+							<td>equal to</td>
+						</tr>
+						<tr>
+							<td>!=</td>
+							<td>not equal to</td>
+						</tr>
+						<tr>
+							<td><</td>
+							<td>less than</td>
+						</tr>
+						<tr>
+							<td>></td>
+							<td>greater than</td>
+						</tr>
+						<tr>
+							<td><=</td>
+							<td>less than or equal to</td>
+						</tr>
+						<tr>
+							<td>>=</td>
+							<td>greater than or equal to</td>
+						</tr>
+					</table>
+					<br>
+					<p>Example showing the use of relational operators</p>
+
+					<h3>Source code</h3>
+					<ol>
+						<li>// using relational operators</li>
+						<li>#include <span>&#60;</span>stdio.h></li>
+						<li>#include <span>&#60;</span>conio.h></li>
+						<li>void main()</li>
+						<li>{</li>
+						<li>int a,b;</li>
+						<li>clrscr();</li>
+						<li>printf("Enter the value of A : ");</li>
+						<li>scanf("%d",&a);</li>
+						<li>printf("Enter the value of B : ");</li>
+						<li>scanf("%d",&b);</li>
+						<li>if(a>b)</li>
+						<li>{</li>
+						<li>printf("\nA is greater than B");</li>
+						<li>}</li>
+						<li>if(a<span>&#60;</span>b)</li>
+						<li>{</li>
+						<li>printf("\nB is greater than A");</li>
+						<li>}</li>
+						<li>if(a==b)</li>
+						<li>{</li>
+						<li>printf("\nA and B are equal");</li>
+						<li>}</li>
+						<li>if(a!=b)</li>
+						<li>{</li>
+						<li>printf("\nA is not equal to B");</li>
+						<li>}</li>
+						<li>getch();</li>
+						<li>}</li>
+					</ol>
+
+					<h3>Program working steps</h3>
+					<ul>
+						<li>First 5 lines of the program are basic about comment, preprocessor directive and void main function.</li>
+						<li>Similar to previous program, it takes two input from the user and stores into the respective variables.</li>
+						<li>Line no.13 if(a>b) statement, If this statement statisfies the condition then it will print loop body of if statement i.e. 'A is greater than B.'.</li>
+						<li>Similar to this, other line no.17,21,24 will be checked, whether the condition of the statemet is true or false. If true, it will print the block statement else it will jump to the next statement.</li>
+						<li>For eg: If user enter 5 and 4 value of a and b variable, then line no.13 and 25 statements will be true printing their body statements.</li>
+					</ul>
+
+					<div class="line">
+						<hr>
+					</div>
+					<div class="buttons-down">
+						<div class="left-button">
+							<a href="23.html"><< Prev</a>
+						</div>
+						<div class="right-button">
+							<a href="25.html">Next >></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	
+
+
+		
+	<div class="extra"></div>
+	<script type="text/javascript" src="../../js/main.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<script>
+  		AOS.init();
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Programming Tutorial - Else If Statement</title>
+	
+	<link rel="shortcut icon" href="../../img/webicon2.png" type="image/x-icon" />
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../../css/programming/1.css">
+</head>
+<body>
+	<nav id="menu-area" class="navbar navbar-expand-lg navbar-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="../../index.html">
+				<img src="../../img/desktopop2.png" id="image-resize" alt="Dekstopop Logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    	<ul class="navbar-nav ml-auto">
+		      		<li class="nav-item ">
+		       			<a class="active2" href="../../index.html">Home</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="active2" href="../hardware/1.html">Hardware</a>
+		      		</li>
+		      		<li class="nav-item  active">
+		        		<a class="active1" href="1.html">Programming</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="active2" href="../networking/1.html">Networking</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="active2"href="../exercises/exercise.html">Exercises</a>
+		      		</li>
+		    	</ul>
+		  	</div>
+		</div>
+	</nav>
+	
+	<section>
+		<div class="hardware-content">
+			<div class="side-bar" id="mySidebar">
+				 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+				<div class="title">
+					<a href="1.html">C Programming</a>
+				</div>
+				<div class="module-main-content">
+					<div class="module-1">
+						<div class="module-title">
+							<a href="2.html">Basics</a>
+						</div>
+						<div class="module-content">
+							<ul>
+								<li><a href="3.html">Constants & Variables</a></li>
+								<li><a href="4.html">Keywords</a></li>
+								<li><a href="5.html">Data Types</a></li>
+								<li><a href="6.html">Printf</a></li>
+								<li><a href="7.html">Scanf</a></li>
+								<li><a href="8.html">Comments</a></li>
+								<li><a href="9.html">First Simple Program</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="module-2">
+						<div class="module-title">
+							<a href="10.html">Control Structures</a>
+						</div>
+						<div class="module-content">
+							<ul>
+								<li><a href="11.html">If Statement</a></li>
+								<li><a href="12.html">If Else Statement</a></li>
+								<li><a href="13.html">Nested If Statement</a></li>
+								<li><a href="14.html" class="a-active">Else If Statement</a></li>
+								<li><a href="15.html">For Loop</a></li>
+								<li><a href="16.html">While Loop</a></li>
+								<li><a href="17.html">Do While Loop</a></li>
+								<li><a href="18.html">Switch Case</a></li>
+								<li><a href="19.html">Break Statement</a></li>
+								<li><a href="20.html">Continue Statement</a></li>
+								<li><a href="21.html">GoTo Statement</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="module-3">
+						<div class="module-title">
+							<a href="22.html">Operators</a>
+						</div>
+						<div class="module-content">
+							<ul>
+								<li><a href="23.html">Arithmetic Operators</a></li>
+								<li><a href="24.html">Relational Operators</a></li>
+								<li><a href="25.html">Assignment Operators</a></li>
+								<li><a href="26.html">Logical Operators</a></li>
+								<li><a href="27.html">Bitwise Operators</a></li>
+								<li><a href="28.html">Shift Operators</a></li>
+								<li><a href="29.html">Increment & Decrement Operators</a></li>
+								<li><a href="30">Ternary Operators</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="module-4">
+						<div class="module-title">
+							<a href="31.html">Functions</a>
+						</div>
+						<div class="module-content">
+							<ul>
+								<li><a href="32.html">Function Introduction</a></li>
+								<li><a href="33.html">Passing & Returning Arguments</a></li>
+								<li><a href="34.html">Call by Value</a></li>
+								<li><a href="35.html">Call by Reference</a></li>
+								<li><a href="36.html">Recursive Function</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-text" id="main">
+				<div class="container">
+					<button class="openbtn" id="openbtn" onclick="openNav()">☰</button> 
+					<div class="title">
+						<h1>Else If Statement</h1>
+					</div>
+					<div class="buttons-up">
+						<div class="left-button">
+							<a href="13.html"><< Prev</a>
+						</div>
+						<div class="right-button">
+							<a href="15.html">Next >></a>
+						</div>
+					</div>
+					<div class="line">
+						<hr>
+					</div>
+
+					<h3>Description</h3>
+					<p>As if else statement are too complicated for humans to write when they are nested more deeply. To reduce this complication of statements else if clause can be used.</p>
+
+					<h3>Syntax:</h3>
+					<p>if(test expression1 is true) <br> &emsp; statement1; <br> else if(test expression2 is true) <br> &emsp; statement2; <br> else if(test expression3 is true) <br> &emsp; statement3; </p>
+
+					<p>It is combination of if else statement, At the start if test expression1 of if statement evalutes false, then the program control moves downward till any of the elseif statement evalutes true. After evaluting true any of the elseif statement it executes the statements and exits the clause.</p>
+
+					<h3>Source code</h3>
+					<ol>
+						<li>//Find whether input year is leap year or not</li>
+						<li>#include <span>&#60;</span>stdio.h></li>
+						<li>#include <span>&#60;</span>conio.h></li>
+						<li>void main()</li>
+						<li>{</li>
+						<li>int year;</li>
+						<li>clrscr();</li>
+						<li>printf("Enter the year:");</li>
+						<li>scanf("%d",&year);</li>
+						<li>if(year%400==0)</li>
+						<li>{</li>
+						<li>printf("It is a leap year");</li>
+						<li>}</li>
+						<li>else if(year%100==0)</li>
+						<li>{</li>
+						<li>printf("It is not a leap year");</li>
+						<li>}</li>
+						<li>else if(year%4==0)</li>
+						<li>{</li>
+						<li>printf("It is a leap year");</li>
+						<li>}</li>
+						<li>else</li>
+						<li>{</li>
+						<li>printf("It is not a leap year");</li>
+						<li>}</li>
+						<li>getch();</li>
+						<li>}</li>
+					</ol>
+
+					<h3>Program working steps</h3>
+					<ul>
+						<li>Leap year means a year with a extra day added at the end of february month i.e. 29th feb, so total days of the year becomes 366 days.</li>
+						<li>First 9 lines of the program are easy to understand.</li>
+						<li>To find the leap year, we need to check three conditions. First condition is checked using if statement and other two conditions are checked using elseif statement. If any of the three statement evalutes false then the last else statement will be executed.</li>
+						<li>Without getch() function the console screen will flash up and exit, to avoid this we use it as it takes single input character from the keyboard and doesn't displays it.</li>
+					</ul>
+
+					<div class="line">
+						<hr>
+					</div>
+					<div class="buttons-down">
+						<div class="left-button">
+							<a href="13.html"><< Prev</a>
+						</div>
+						<div class="right-button">
+							<a href="15.html">Next >></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	
+
+
+		
+	<div class="extra"></div>
+	<script type="text/javascript" src="../../js/main.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<script>
+  		AOS.init();
+	</script>
+
+</body>
+</html>

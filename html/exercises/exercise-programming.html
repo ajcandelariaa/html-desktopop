@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Exercise - Programming</title>
+
+	<link rel="shortcut icon" href="../../img/webicon2.png" type="image/x-icon" />
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="../../css/exercises/exercise-programming.css">
+	
+</head>
+<body onload="myFunction()">
+	<section>
+		<div class="hardware-content">
+			<div class="side-bar" id="mySidebar">
+				 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+				<div class="title">
+					<h5>Programming Exercises</h5>
+				</div>
+				<div id="ul-change-color">
+					<ul class="questions-tracker">
+
+					</ul>
+				</div>
+			</div>
+
+			<div class="content-text" id="main">
+				<button class="openbtn" id="openbtn" onclick="openNav()">☰</button>  
+				<div class="quiz-container">
+					<div class="question-number">
+						<h3>Question <span class="question-num-value"></span> of <span class="total-question"></span></h3>
+					</div>
+					<div class="question">
+					</div>
+					<div class="options">
+						<div id="0" class="option1" onclick="check(this)"></div>
+						<div id="1" class="option2" onclick="check(this)"></div>
+						<div id="2" class="option3" onclick="check(this)"></div>
+						<div id="3" class="option4" onclick="check(this)"></div>
+					</div>
+					<div class="button">
+						<button type="button" id="nextBtn" class="btn" onclick="next()">Next</button>
+					</div>
+					<div class="answers-tracker">
+
+					</div>
+				</div>
+				<div class="quiz-over">
+					<div class="box">
+						<h1>
+							Good Try! You've Got <span class="correct-answers"></span> out of <span class="total-question2"></span> answers correct! <br> That's <span class="percentage"></span>
+						</h1>
+						<button type="button" onclick="tryAgain()">Try Again</button>
+					</div>
+				</div>
+
+				<div class="message">
+					<div class="box-message">
+						<h1>Programming Exercise</h1>
+						<ul>
+							<li>This exercise is compose of 30 questions</li>
+							<li>You can't go back from the previous question after clicking the next button</li>
+							<li>Please think carefully before clicking your answer</li>
+							<li>Once you've answer the question you will automatically know if your answer is correct </li>
+							<li>If your answer is wrong it will show you the correct answer with the background color of green.</li>
+						</ul>
+						<button type="button" onclick="startQuiz()">Start Quiz</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
+	<script type="text/javascript" src="../../js/main.js"></script>
+
+	<script type="text/javascript" src="../../js/programming-exercise.js" ></script>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<script>
+		let preloader = document.getElementById('loading');
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		}
+	</script>
+
+	<script>
+  		AOS.init();
+	</script>
+
+</body>
+</html>

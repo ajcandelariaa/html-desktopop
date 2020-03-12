@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Networking Tutorial - Network Topology</title>
+	
+	<link rel="shortcut icon" href="../../img/webicon2.png" type="image/x-icon" />
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../../css/networking/1.css">
+</head>
+<body>
+	<nav id="menu-area" class="navbar navbar-expand-lg navbar-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="../../index.html">
+				<img src="../../img/desktopop2.png" id="image-resize" alt="Dekstopop Logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    	<ul class="navbar-nav ml-auto">
+		      		<li class="nav-item ">
+		       			<a class="active2" href="../../index.html">Home</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="active2" href="../hardware/1.html">Hardware</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="active2" href="../programming/1.html">Programming</a>
+		      		</li>
+		      		<li class="nav-item active">
+		        		<a class="active1" href="#">Networking</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="active2" href="../exercises/exercise.html">Exercises</a>
+		      		</li>
+		    	</ul>
+		  	</div>
+		</div>
+	</nav>
+	
+	<section>
+		<div class="hardware-content">
+			<div class="side-bar" id="mySidebar">
+				 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+				<div class="title">
+					<a href="1.html">Networking</a>
+				</div>
+				<div class="module-main-content">
+					<div class="module-1">
+						<div class="module-title">
+							<a href="2.html">Basics</a>
+						</div>
+						<div class="module-content">
+							<ul>
+								<li><a href="3.html">Line Configuration</a></li>
+								<li><a href="4.html">Transmission Modes</a></li>
+								<li><a href="5.html">Transmission Media</a></li>
+								<li><a href="6.html" class="a-active">Network Topology</a></li>
+								<li><a href="7.html">Computer Network</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="module-2">
+						<div class="module-title">
+							<a href="8.html">Network Devices</a>
+						</div>
+						<div class="module-content">
+							<ul>
+								<li><a href="9.html">Modem</a></li>
+								<li><a href="10.html">Hub</a></li>
+								<li><a href="11.html">Switch</a></li>
+								<li><a href="12.html">NIC</a></li>
+								<li><a href="13.html">Repeater</a></li>
+								<li><a href="14.html">Bridge</a></li>
+								<li><a href="15.html">Router</a></li>
+								<li><a href="16.html">Gateway</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="module-3">
+						<div class="module-title">
+							<a href="17.html">OSI Model</a>
+						</div>
+						<div class="module-content">
+							<ul>
+								<li><a href="18.html">Physical Layer</a></li>
+								<li><a href="19.html">Datalink Layer</a></li>
+								<li><a href="20.html">Network Layer</a></li>
+								<li><a href="21.html">Transport Layer</a></li>
+								<li><a href="22.html">Session Layer</a></li>
+								<li><a href="23.html">Presentation Layer</a></li>
+								<li><a href="24.html">Application Layer</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="module-4">
+						<div class="module-title">
+							<a href="25.html">TCP/IP Model</a>
+						</div>
+						<div class="module-content">
+							<ul>
+								<li><a href="26.html">Link Layer</a></li>
+								<li><a href="27.html">Internt Layer</a></li>
+								<li><a href="28.html">Transport Layer</a></li>
+								<li><a href="29.html">Application Layer</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="content-text" id="main">
+				<div class="container">
+					<button class="openbtn" id="openbtn" onclick="openNav()">☰</button> 
+					<div class="title">
+						<h1>Network Topology</h1>
+					</div>
+					<div class="buttons-up">
+						<div class="left-button">
+							<a href="5.html"><< Prev</a>
+						</div>
+						<div class="right-button">
+							<a href="7.html">Next >></a>
+						</div>
+					</div>
+					<div class="line">
+						<hr>
+					</div>
+
+
+					<h3>Definition</h3>
+					<ul>
+	                    <li>Topology is the way in which computer network is connected.</li>
+	                    <li>Interconnection configuration to provide efficient communication.</li>
+	                    <li>Arrangement of nodes, cables and connecting devices.</li>
+	                </ul>
+
+	                <h3>Types</h3>
+
+	                <h5>1) Ring topology</h5>
+	                <ul>
+	                    <li>Each node connected to each other forming a ring like structure.</li>
+	                    <li>Data packets travels from node to node as there is single path.</li>
+	                    <li>Packet travels until it finds the final destination from node to node.</li>
+	                    <li>Physically it is star topology but logically its a ring topology.</li>
+                    	<li>Advantages:
+                        <ul>
+                            <li>Does not require a server.</li>
+                            <li>Cable failure affects limited users.</li>
+                            <li>Acts better in heavy network load.</li>
+                            <li>Each node has access to token and opportunity to transmit.</li>
+                        </ul>
+                    </li>
+                    <li>Disadvantages:
+                        <ul>
+                            <li>Failure of one node can affect the entire network.</li>
+                            <li>Adding, removing or moving nodes affects the network.</li>
+                            <li>Wiring is costly and network adapter cards are required.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h5>2) Bus topology:</h5>
+                <ul>
+                    <li>All devices such as server, node, printer are connected to common shared cable called as a bus.</li>
+                    <li>T-connectors are used to connect each device.</li>
+                    <li>Buses are bidirectional hence all devices are capable to send and receive signals simultaneously.</li>
+                    <li>But some buses are unidirectional.</li>
+                    <li>Messages passes to each node, if it matches to its address it takes it, else it transmits to the next node.</li>
+                    <li>Bus cable is terminated at each end of node by placing terminators to prevent signal reflecting back.</li>
+                    <li>Advantages:
+                        <ul>
+                            <li>Failure of one node does not affect the network.</li>
+                            <li>Good for smaller network in LAN.</li>
+                            <li>Less expensive than star topology.</li>
+                            <li>Easy to add devices or peripherals.</li>
+                        </ul>
+                    </li>
+                    <li>Disadvantages:
+                        <ul>
+                            <li>Finite over speed and size.</li>
+                            <li>Failure of main cable can shutdown the entire network.</li>
+                            <li>Terminators are required at both ends.</li>
+                            <li>Finding an error in network is difficult.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h5>3) Star topology</h5>
+                <ul>
+                    <li>All nodes are connected to central hub.</li>
+                    <li>Hub routes the messages from source to destination.</li>
+                    <li>It acts like repeater for data flow</li>
+                    <li>Advantages:
+                        <ul>
+                            <li>Easy for installing, wiring and adding or removing nodes.</li>
+                            <li>Node failure doesn't affect the network.</li>
+                            <li>Simple to detect errors and faults.</li>
+                            <li>Good for big network.</li>
+                        </ul>
+                    </li>
+                    <li>Disadvantages:
+                        <ul>
+                            <li>Hub failure can shutdown whole network.</li>
+                            <li>Expensive cabling is required.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h5>4) Tree topology</h5>
+                <ul>
+                    <li>Central hub or root node is connected to other lower end nodes.</li>
+                    <li>Central hub manages and functions each node.</li>
+                    <li>Root node act as a server.</li>
+                    <li>Lower level nodes can be connected to next lower level.</li>
+                    <li>Point-to-point configuration wiring for each node.</li>
+                    <li>Advantages:
+                        <ul>
+                            <li>Easy to add or remove node.</li>
+                            <li>Can be use for large networks.</li>
+                        </ul>
+                    </li>
+                    <li>Disadvantages:
+                        <ul>
+                            <li>Central root or node failure can shut down entire network.</li>
+                            <li>Hard for installing and configuring, compare to other topologies.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h5>5) Mesh Topology</h5>
+                <ul>
+                    <li>Dedicated point-to-point link is established between nodes.</li>
+                    <li>It requires n(n-1)/2 links to connect n nodes.</li>
+                    <li>Advantages:
+                        <ul>
+                            <li>Any node failure doesn't affect the network.</li>
+                            <li>Traffic load is very less because of dedicated link.</li>
+                            <li>Privacy and security is maintained.</li>
+                            <li>Fault detection and isolation is easy.</li>
+                        </ul>
+                    </li>
+                    <li>Disadvantages:
+                        <ul>
+                            <li>Lot of cabling and i/o ports are required.</li>
+                            <li>Installation and reconfiguring is harder.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+
+
+
+					<div class="line">
+						<hr>
+					</div>
+					<div class="buttons-down">
+						<div class="left-button">
+							<a href="5.html"><< Prev</a>
+						</div>
+						<div class="right-button">
+							<a href="7.html">Next >></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	
+
+
+		
+	<div class="extra"></div>
+	<script type="text/javascript" src="../../js/main.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<script>
+  		AOS.init();
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Programming Tutorial - Printf</title>
+	
+	<link rel="shortcut icon" href="../../img/webicon2.png" type="image/x-icon" />
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../../css/programming/1.css">
+</head>
+<body>
+	<nav id="menu-area" class="navbar navbar-expand-lg navbar-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="../../index.html">
+				<img src="../../img/desktopop2.png" id="image-resize" alt="Dekstopop Logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    	<ul class="navbar-nav ml-auto">
+		      		<li class="nav-item ">
+		       			<a class="active2" href="../../index.html">Home</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="active2" href="../hardware/1.html">Hardware</a>
+		      		</li>
+		      		<li class="nav-item  active">
+		        		<a class="active1" href="1.html">Programming</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="active2" href="../networking/1.html">Networking</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="active2"href="../exercises/exercise.html">Exercises</a>
+		      		</li>
+		    	</ul>
+		  	</div>
+		</div>
+	</nav>
+	
+	<section>
+		<div class="hardware-content">
+			<div class="side-bar" id="mySidebar">
+				 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+				<div class="title">
+					<a href="1.html">C Programming</a>
+				</div>
+				<div class="module-main-content">
+					<div class="module-1">
+						<div class="module-title">
+							<a href="2.html">Basics</a>
+						</div>
+						<div class="module-content">
+							<ul>
+								<li><a href="3.html">Constants & Variables</a></li>
+								<li><a href="4.html">Keywords</a></li>
+								<li><a href="5.html">Data Types</a></li>
+								<li><a href="6.html" class="a-active">Printf</a></li>
+								<li><a href="7.html">Scanf</a></li>
+								<li><a href="8.html">Comments</a></li>
+								<li><a href="9.html">First Simple Program</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="module-2">
+						<div class="module-title">
+							<a href="10.html">Control Structures</a>
+						</div>
+						<div class="module-content">
+							<ul>
+								<li><a href="11.html">If Statement</a></li>
+								<li><a href="12.html">If Else Statement</a></li>
+								<li><a href="13.html">Nested If Statement</a></li>
+								<li><a href="14.html">Else If Statement</a></li>
+								<li><a href="15.html">For Loop</a></li>
+								<li><a href="16.html">While Loop</a></li>
+								<li><a href="17.html">Do While Loop</a></li>
+								<li><a href="18.html">Switch Case</a></li>
+								<li><a href="19.html">Break Statement</a></li>
+								<li><a href="20.html">Continue Statement</a></li>
+								<li><a href="21.html">GoTo Statement</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="module-3">
+						<div class="module-title">
+							<a href="22.html">Operators</a>
+						</div>
+						<div class="module-content">
+							<ul>
+								<li><a href="23.html">Arithmetic Operators</a></li>
+								<li><a href="24.html">Relational Operators</a></li>
+								<li><a href="25.html">Assignment Operators</a></li>
+								<li><a href="26.html">Logical Operators</a></li>
+								<li><a href="27.html">Bitwise Operators</a></li>
+								<li><a href="28.html">Shift Operators</a></li>
+								<li><a href="29.html">Increment & Decrement Operators</a></li>
+								<li><a href="30">Ternary Operators</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="module-4">
+						<div class="module-title">
+							<a href="31.html">Functions</a>
+						</div>
+						<div class="module-content">
+							<ul>
+								<li><a href="32.html">Function Introduction</a></li>
+								<li><a href="33.html">Passing & Returning Arguments</a></li>
+								<li><a href="34.html">Call by Value</a></li>
+								<li><a href="35.html">Call by Reference</a></li>
+								<li><a href="36.html">Recursive Function</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="content-text" id="main">
+				<div class="container">
+					<button class="openbtn" id="openbtn" onclick="openNav()">☰</button> 
+					<div class="title">
+						<h1>Printf</h1>
+					</div>
+					<div class="buttons-up">
+						<div class="left-button">
+							<a href="5.html"><< Prev</a>
+						</div>
+						<div class="right-button">
+							<a href="7.html">Next >></a>
+						</div>
+					</div>
+					<div class="line">
+						<hr>
+					</div>
+
+					<h3>Description</h3>
+					<p>Printf stands for "print formated" is an built-in function defined in stdio.h header file that prints the output on the screen supplied with proper formated string. Basically formated string consists of text, speical character codes for format specifiers and arguments in sequence.</p>
+
+					<h5>Syntax</h5>
+					<p>printf("format string", argument);</p>
+
+					<p>The first format string argument determines how many arguments are there and are of what data types. Second argument is the list of variable names seperated by commas in correct sequence, if wrong will result wrong output.</p>
+
+					<p>Eg: printf("Value of a and b = %d : %d", a,b);</p>
+
+					<h5>Format Specifiers:</h5>
+					<table>
+						<tr>
+							<td>%c
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							</td>
+							<td>char</td>
+						</tr>
+						<tr>
+							<td>%i or %d</td>
+							<td>int</td>
+						</tr>
+						<tr>
+							<td>%e</td>
+							<td>scientific notations</td>
+						</tr>
+						<tr>
+							<td>%f</td>
+							<td>float</td>
+						</tr>
+						<tr>
+							<td>%o</td>
+							<td>octal</td>
+						</tr>
+						<tr>
+							<td>%s</td>
+							<td>string</td>
+						</tr>
+						<tr>
+							<td>%u</td>
+							<td>unsigned int</td>
+						</tr>
+						<tr>
+							<td>%x</td>
+							<td>hexadecimal</td>
+						</tr>
+						<tr>
+							<td>%p</td>
+							<td>pointe</td>
+						</tr>
+						<tr>
+							<td>%%</td>
+							<td>% sign</td>
+						</tr>
+						<tr>
+							<td>%lf</td>
+							<td>double</td>
+						</tr>
+					</table>
+
+					<br>
+
+					<h5>Escape Sequences:</h5>
+					<table>
+						<tr>
+							<td>\n
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							</td>
+							<td>new line</td>
+						</tr>
+						<tr>
+							<td>\t</td>
+							<td>tab</td>
+						</tr>
+						<tr>
+							<td>\v</td>
+							<td>vertical tab</td>
+						</tr>
+						<tr>
+							<td>\b</td>
+							<td>backspace</td>
+						</tr>
+						<tr>
+							<td>\f</td>
+							<td>new page</td>
+						</tr>
+						<tr>
+							<td>\r</td>
+							<td>carrier return</td>
+						</tr>
+					</table>
+
+					<br>
+					 <h5>Some printf statements:</h5>
+					<p>int a=23; <br> float b=2.5234; <br> printf("%d\n", a); <br> printf("%4d\n", a); <br> printf("%f\n", b); <br> printf("%.2f\n", b); <br> printf("%4.1f\n", b); <br> printf("%s\n", "My sixth statement"); <br> printf("%30s\n", "My seventh statement"); <br> printf("%.12s\n", My eighth statement"); <br> printf("%-20s\n", My ninth statement"); <br> prinft("%10.6s\n", My tenth statement"); <br> printf("Octal of 31 : %o\n", 31); <br> printf("Hexamdecimal of 52 : %x\n, 52);</p>
+
+					<h5>Output of statements:</h5>
+					<p>23<br>&nbsp;&nbsp;&nbsp;23<br> 2.523400<br>2.52 <br>My sixth statement <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My seventh statement <br> My eighth st <br> My ninth statement <br>&nbsp;&nbsp;&nbsp; My ten <br> Octal of 31 : 37 <br> Hexamdecimal of 52 : 34</p>
+
+					<h5>Explanation</h5>
+					<ul>
+						<li>Value of a & b are declared with their data types and \n is used to enter a new line in each statement.</li>
+						<li>In first printf statement %d prints the value of a in decimal integer.</li>
+						<li>Second statement prints the value of a in decimal integer with width of at least 4 wide that creates two blank spaces at the start.</li>
+						<li>%f prints floating point value of b.</li>
+						<li>%.2f prints floating point with a precision of 2 after decimal point.</li>
+						<li>%4.1f prints floating point with width of four and precision of 1, so there is one space at the start.</li>
+						<li>%s prints the contents within double quotes as it is.</li>
+						<li>%30s as string content is 20 characters, an output should be 30 characters wide it adds 10 blank spaces at the start.</li>
+						<li>%.12s prints the first twelve characters of the string.</li>
+						<li>%-20s does opposite of seventh statement, it adds two blank spaces at the end as string characters are eighteen.</li>
+						<li>%10.6s prints six characters from the string by adding four blank spaces at the start, as the output should be of ten characters wide. Similarly if it is %-10.6s, it will add blankspaces at the end.</li>
+						<li>Prints the octal value of 31 : 37</li>
+						<li>Prints the hexadecimal value of 52 : 34</li>
+					</ul>
+
+
+					<div class="line">
+						<hr>
+					</div>
+					<div class="buttons-down">
+						<div class="left-button">
+							<a href="5.html"><< Prev</a>
+						</div>
+						<div class="right-button">
+							<a href="7.html">Next >></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	
+
+
+		
+	<div class="extra"></div>
+	<script type="text/javascript" src="../../js/main.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<script>
+  		AOS.init();
+	</script>
+
+</body>
+</html>
