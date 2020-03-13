@@ -319,7 +319,7 @@
 
 
 
-@media (max-width: 2560px) {
+@media (max-width: 2560px) and (min-width: 2000px) {
 	/*.message{
 		left: 0;
 		top: 0;
